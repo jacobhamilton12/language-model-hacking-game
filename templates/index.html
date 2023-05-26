@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="prompt-nav">
+                <button id="prev-prompt">&larr;</button>
+                <button id="next-prompt">&rarr;</button>
+            </div>
+            <label for="prompt">Prompt</label>
+            <textarea id="prompt" rows="5" readonly></textarea>
+
+            <label for="entry">Entry</label>
+            <textarea id="entry" rows="5"></textarea>
+
+            <label for="response">Response</label>
+            <textarea id="response" rows="5" readonly></textarea>
+
+            <button id="submit">Submit</button>
+        </div>
+        <div class="box">
+            <label>Submissions</label>
+            <div class="submissions" id="submissions"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
