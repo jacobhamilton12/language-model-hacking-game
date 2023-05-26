@@ -17,8 +17,7 @@ TODO:
 5. Mobile friendly
 
 Coding Style:
-
-Keep files and functions small for AI to help with coding
+> Keep files and functions small for AI to help with coding
 
 Using openai api
 
