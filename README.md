@@ -9,6 +9,16 @@ python3 db.py # this initializes the dictionary
 python3 app.py
 ```
 
+TODO:
+Successful submissions should be green.
+Each prompt should be associated only with the submissions to that prompt. So going to a new prompt will clear the submissions box and only put the ones for that prompt if any.
+Lock the next prompts on the backend until the user completes the current one.
+User's cookies should keep track of the prompts they have completed.
+Mobile friendly
+
+Coding Style:
+Keep files and functions small for AI to help with coding
+
 Using openai api
 
 Inspired by https://gpa.43z.one/
